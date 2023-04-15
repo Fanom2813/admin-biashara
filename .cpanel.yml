@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/biashara2/admin.biashara2.com
+    - /bin/cp -r * $DEPLOYPATH
